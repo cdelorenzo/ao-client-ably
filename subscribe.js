@@ -36,12 +36,12 @@ var subscribe = function(subID) {
         logStatus('Channel attached');
         channel.subscribe((message) => {
           const now = new Date();
-          const sent = new Date(message.data.Message.Date);
+          const sent = new Date(message.data.Date);
           const diff = now - sent;
-
+          console.log(message);
           //console.log(message);
-          console.log(message.data.Message.Date + ' ' + subscriber +
-             ' ' + message.data.Message['E-Tag'] + ' ' + message.data.Message.Status +
+          console.log(message.data.Date + ' ' + subscriber +
+             ' ' + message.data['E-Tag'] + ' ' + message.data.Status +
              ' ' + diff);
         });
         callback(null, subscriber + ' subscribed');
