@@ -1,0 +1,23 @@
+{
+   "name":"ao-client-ably",
+   "description":"Ably Client Subscriber",
+   "version":"0.1.0",
+   "main":"subscribe.js",
+   "scripts":{
+      "start":"node subscribe.js"
+   },
+   "repository":{
+      "type":"git",
+      "url":"https://github.com/cdelorenzo/ao-client-ably.git"
+   },
+   "dependencies":{
+      "ably":">=1.0.5",
+      "async":"2.5.0"
+   },
+   "keywords":[
+      "node.js"
+   ],
+   "author":"",
+   "license":"MIT",
+   "readmeFilename":"README.md"
+}

@@ -1,0 +1,6 @@
+{
+  "key":"foo-xxxxx.xxxxx:xxxxxxxxxx",
+  "environment":"bar-environment",
+  "connections":"5",
+  "ramp":"5"
+}
