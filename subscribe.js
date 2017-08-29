@@ -20,6 +20,7 @@ var subscribe = function(subID) {
       key: config.key,
       environment: config.environment,
       useTokenAuth: true,
+      useBinaryProtocol: false,
       // defaults to 1. Can increase for debugging purposes
       log: { level: 1 }
     });
