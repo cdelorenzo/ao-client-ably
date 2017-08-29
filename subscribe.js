@@ -40,7 +40,7 @@ var subscribe = function(subID) {
           const sent = new Date(message.data.Date);
           const diff = now - sent;
           //console.log(message);
-          console.log(message.data.Date + ' ' + subscriber +
+          console.log(message.data.Date + ' ' + region + ' ' + subscriber +
              ' ' + message.data['E-Tag'] + ' ' + message.data.Status +
              ' ' + diff);
         });
