@@ -39,7 +39,6 @@ var subscribe = function(subID) {
           const now = new Date();
           const sent = new Date(message.data.Date);
           const diff = now - sent;
-          console.log(message);
           //console.log(message);
           console.log(message.data.Date + ' ' + subscriber +
              ' ' + message.data['E-Tag'] + ' ' + message.data.Status +
